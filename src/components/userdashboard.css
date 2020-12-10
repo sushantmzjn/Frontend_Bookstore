@@ -1,0 +1,25 @@
+
+
+.maindiv{
+    margin-top: 185px;
+    width: 60%;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('./images/book.jpg');
+    background-size: 100% 100%; 
+    box-shadow: 1px 2px 10px 5px black;
+    animation: slider 24s infinite linear;
+}
+
+@keyframes slider{
+    0%{background-image: url('./images/book.jpg');}
+    35%{background-image: url('./images/book2.jpg');}
+    75%{background-image: url('./images/book3.jpg');}
+}
+
+.center {
+   margin-left: 300px;
+  }
